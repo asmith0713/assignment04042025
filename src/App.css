@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("/src/images/milky-way-2695569_1920.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  background-color: rgba(0, 0, 0, 0.8); /* Dark overlay for better readability */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  width: 400px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  color: #8c8d95;
+}
+
+form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+input::placeholder {
+  color: #ddd;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  background-color: #ffcc00;
+  color: black;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+button {
+  background-color: #908a87;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
